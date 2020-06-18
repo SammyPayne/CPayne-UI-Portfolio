@@ -1,0 +1,87 @@
+/* @import '~bootstrap/dist/css/bootstrap-theme.min.css';
+@import '~bootstrap/dist/css/bootstrap.min.css'; */
+
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+html {
+   overflow: hidden;
+}
+body {
+   margin: 0;
+   /* width: 100%; */
+   height: 100vh;
+   perspective: 1px;
+   transform-style: preserve-3d;
+   overflow-x: hidden; /* prevents a horizontal scrollbar from appearing */
+   overflow-y: auto;
+   background-color: #010101;
+
+   color:#faf7f7;
+   font-weight: normal;
+   font-size: 18px;
+   font-family: "Berlin Sans FB", "Calibri", "Segoe UI", Roboto, "Arial", sans-serif;
+   line-height: 1.1em;
+   font-kerning: auto;
+}
+.pageBody {
+   /* The margins here are pushing everything over to the right. Taking the banner out of this makes it spread out for the width of the page, but this may not be the best solution. */
+   /* margin-top: 0px;
+   margin-right: 60px;
+   margin-bottom: 0px;
+   margin-left: 60px; */
+   margin: 0px;
+   width: 100%;
+   padding: 0px;
+}
+.italic {
+   font-style: italic;
+}
+.bold {
+   font-weight: bold;
+}
+.monospaceFont {
+   font-weight: normal;
+   font-size: 14px;
+   font-family: "Lucida Console", Courier, monospace;
+}
+.tinyType {
+   color: #010101;
+   font-size: 14px;
+}
+/* Padding, margins, line-height, and alignment */
+.noMargin {
+   margin: 0px;
+}
+.marginXtraSmall {
+   margin: 3px;
+}
+.marginSmall {
+   margin: 5px;
+}
+.marginMedium {
+   margin: 10px;
+}
+.marginLarge {
+   margin: 20px;
+}
+.marginXtraLarge {
+   margin: 30px;
+}
+.padXtraSmall {
+   padding: 3px;
+}
+.padSmall {
+   padding: 5px;
+}
+.padMedium {
+   padding: 10px;
+}
+.padLarge {
+   padding: 20px;
+}
+.padXtraLarge {
+   padding: 30px;
+}
+.center {
+   text-align: center !important;
+}
