@@ -25,3 +25,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Other notes
+
+6.18.20
+node_modules was not included in this project due to its size. Restore nuget packages for the project if cloning this repository for the first time. A note to ignore uploads from the node_modules folder will be added to .gitignore in the future.
