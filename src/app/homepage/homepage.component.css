@@ -1,0 +1,417 @@
+/* BEGIN PHOENIX GRAPHIC */
+/* .phoenix-graphic-wrapper {
+    width: 100vw;
+    height: 140vh;
+    background-image: url("../../assets/Images/Homepage_PhoenixGraphic_transpBlackStroke.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 68%;
+    background-color: black;
+    opacity: 1;
+    z-index: 10;
+} */
+/*transform: translateZ(0px) scale(1);*/ /* translate() controls how "far back" the element appears to be. Scale controls the size of the element */
+
+@media screen and (min-width:2000px) {
+    .phoenix-graphic-wrapper {
+        width: 100vw;
+        height: 140vh;
+        background-image: url("../../assets/Images/Homepage_PhoenixGraphic_transpBlackStroke.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 68%;
+        background-color: black;
+        opacity: 1;
+        z-index: 10;
+    }
+}
+@media screen and (min-width:1201px) and (max-width:1999px) {
+    .phoenix-graphic-wrapper {
+        width: 100vw;
+        height: 140vh;
+        background-image: url("../../assets/Images/Homepage_PhoenixGraphic_transpBlackStroke.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 68%;
+        background-color: black;
+        opacity: 1;
+        z-index: 10;
+    }
+}
+@media screen and (min-width:1025px) and (max-width:1200px) {
+    .phoenix-graphic-wrapper {
+        width: 100vw;
+        height: 100vh;
+        background-image: url("../../assets/Images/Homepage_PhoenixGraphic_transpBlackStroke.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 90%;
+        background-color: black;
+        opacity: 1;
+        z-index: 10;
+    }
+}
+@media screen and (min-width:993px) and (max-width:1024px) {
+    .phoenix-graphic-wrapper {
+        width: 100vw;
+        height: 100vh;
+        background-image: url("../../assets/Images/Homepage_PhoenixGraphic_transpBlackStroke.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 90%;
+        background-color: black;
+        opacity: 1;
+        z-index: 10;
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+    .phoenix-graphic-wrapper {
+        width: 100vw;
+        height: 60vh;
+        background-image: url("../../assets/Images/Homepage_PhoenixGraphic_transpBlackStroke.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 95%;
+        background-color: black;
+        opacity: 1;
+        z-index: 10;
+    }
+}
+@media screen and (min-width:551px) and (max-width:670px) {
+    .phoenix-graphic-wrapper {
+        width: 100vw;
+        height: 100vh;
+        background-image: url("../../assets/Images/Homepage_PhoenixGraphic_transpBlackStroke.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 70%;
+        background-color: black;
+        opacity: 1;
+        z-index: 10;
+    }
+}
+@media screen and (min-width:401px) and (max-width:550px) {
+    .phoenix-graphic-wrapper {
+        width: 100vw;
+        height: 60vh;
+        background-image: url("../../assets/Images/Homepage_PhoenixGraphic_transpBlackStroke.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 95%;
+        background-color: black;
+        opacity: 1;
+        z-index: 10;
+    }
+}
+@media screen and (max-width:400px) {
+    .phoenix-graphic-wrapper {
+        width: 100vw;
+        height: 70vh;
+        background-image: url("../../assets/Images/Homepage_PhoenixGraphic_transpBlackStroke.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 85%;   /* note that this is probably pretty small, and large fingers would have a hard time tapping the screen. change the shape/size of the svg elements */
+        background-color: black;
+        opacity: 1;
+        z-index: 10;
+        /*transform: translateZ(0px) scale(1);*/ /* translate() controls how "far back" the element appears to be. Scale controls the size of the element */
+    }
+}
+
+/* svg for double-wide screen */
+@media screen and (min-width:2000px) {
+    .svg-featherLink-xlarge {
+        width: inherit;
+        height: inherit;
+        padding: 0;
+        margin: 0;
+    }
+    .svg-featherLink-large {
+        display: none;
+    }
+    .svg-featherLink-medlarge {
+        display: none;
+    }
+    .svg-featherLink-med-ls {
+        display: none;
+    }
+    .svg-featherLink-med-por {
+        display: none;
+    }
+    .svg-featherLink-small-ls {
+        display: none;
+    }
+    .svg-featherLink-small-por {
+        display: none;
+    }
+    .svg-featherLink-xsmall {
+        display: none;
+    }
+}
+/* svg for large screen */
+@media screen and (min-width:1201px) and (max-width:1999px) {
+    .svg-featherLink-xlarge {
+        display: none;
+    }
+    .svg-featherLink-large {
+        width: inherit;
+        height: inherit;
+        padding: 0;
+        margin: 0;
+    }
+    .svg-featherLink-medlarge {
+        display: none;
+    }
+    .svg-featherLink-med-ls {
+        display: none;
+    }
+    .svg-featherLink-med-por {
+        display: none;
+    }
+    .svg-featherLink-small-ls {
+        display: none;
+    }
+    .svg-featherLink-small-por {
+        display: none;
+    }
+    .svg-featherLink-xsmall {
+        display: none;
+    }
+}
+/* svg for medium-large screen */
+@media screen and (min-width:1025px) and (max-width:1200px) {
+    .svg-featherLink-xlarge {
+        display: none;
+    }
+    .svg-featherLink-large {
+        display: none;
+    }
+    .svg-featherLink-medlarge {
+        width: inherit;
+        height: inherit;
+        padding: 0;
+        margin: 0;
+    }
+    .svg-featherLink-med-ls {
+        display: none;
+    }
+    .svg-featherLink-med-por {
+        display: none;
+    }
+    .svg-featherLink-small-ls {
+        display: none;
+    }
+    .svg-featherLink-small-por {
+        display: none;
+    }
+    .svg-featherLink-xsmall {
+        display: none;
+    }
+}
+/* svg for medium-large screen or ls tablet. */ 
+@media screen and (min-width:993px) and (max-width:1024px) and (orientation:landscape) {
+    .svg-featherLink-xlarge {
+        display: none;
+    }
+    .svg-featherLink-large {
+        display: none;
+    }
+    .svg-featherLink-medlarge {
+        display: none;
+    }
+    .svg-featherLink-med-ls {
+        width: inherit;
+        height: inherit;
+        padding: 0;
+        margin: 0;
+    }
+    .svg-featherLink-med-por {
+        display: none;
+    }
+    .svg-featherLink-small-ls {
+        display: none;
+    }
+    .svg-featherLink-small-por {
+        display: none;
+    }
+    .svg-featherLink-xsmall {
+        display: none;
+    }
+}
+/* svg for portrait-tablet */ 
+@media screen and (min-width:768px) and (max-width:992px) and (orientation:portrait) {
+    .svg-featherLink-xlarge {
+        display: none;
+    }
+    .svg-featherLink-large {
+        display: none;
+    }
+    .svg-featherLink-medlarge {
+        display: none;
+    }
+    .svg-featherLink-med-ls {
+        display: none;
+    }
+    .svg-featherLink-med-por {
+        width: inherit;
+        height: inherit;
+        padding: 0;
+        margin: 0;
+    }
+    .svg-featherLink-small-ls {
+        display: none;
+    }
+    .svg-featherLink-small-por {
+        display: none;
+    }
+    .svg-featherLink-xsmall {
+        display: none;
+    }
+}
+/* svg for small screen (bigger phone) LANDSCAPE */ 
+@media screen and (min-width:551px) and (max-width:670px) and (orientation:landscape) {
+    .svg-featherLink-xlarge {
+        display: none;
+    }
+    .svg-featherLink-large {
+        display: none;
+    }
+    .svg-featherLink-medlarge {
+        display: none;
+    }
+    .svg-featherLink-med-ls {
+        display: none;
+    }
+    .svg-featherLink-med-por {
+        display: none;
+    }
+    .svg-featherLink-small-ls {
+        width: inherit;
+        height: inherit;
+        padding: 0;
+        margin: 0;
+    }
+    .svg-featherLink-small-por {
+        display: none;
+    }
+    .svg-featherLink-xsmall {
+        display: none;
+    }
+}
+/* svg for small screen (bigger phone) PORTRAIT */ 
+@media screen and (min-width:401px) and (max-width:550px) and (orientation:portrait) {
+    .svg-featherLink-xlarge {
+        display: none;
+    }
+    .svg-featherLink-large {
+        display: none;
+    }
+    .svg-featherLink-medlarge {
+        display: none;
+    }
+    .svg-featherLink-med-ls {
+        display: none;
+    }
+    .svg-featherLink-med-por {
+        display: none;
+    }
+    .svg-featherLink-small-ls {
+        display: none;
+    }
+    .svg-featherLink-small-por {
+        width: inherit;
+        height: inherit;
+        padding: 0;
+        margin: 0;
+    }
+    .svg-featherLink-xsmall {
+        display: none;
+    }
+}
+/* svg for xsmall screen (small phone) */ 
+@media screen and (max-width:400px) {
+    .svg-featherLink-xlarge {
+        display: none;
+    }
+    .svg-featherLink-large {
+        display: none;
+    }
+    .svg-featherLink-medlarge {
+        display: none;
+    }
+    .svg-featherLink-med-ls {
+        display: none;
+    }
+    .svg-featherLink-med-por {
+        display: none;
+    }
+    .svg-featherLink-small-ls {
+        display: none;
+    }
+    .svg-featherLink-small-por {
+        display: none;
+    }
+    .svg-featherLink-xsmall {
+        width: inherit;
+        height: inherit;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+/* Begin Parallax */
+.parallax-wrapper {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 20vh;
+    box-sizing: border-box; /* This value includes padding in the total height of the element, btw. */
+    transform-style: preserve-3d;
+}
+.parallax-wrapper::before {
+    content: "";
+    width: 100vw;
+    height: 100vh; /* The illusion of parallax doesn't work (in this context) when the element height is < 100. */
+    top: 0;
+    left: 0;
+    background-image: url("../../assets/Images/20130922_Swear.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #010101;
+    opacity: 0.5;
+    position: absolute;
+    z-index: -1;
+    transform: translateZ(-1px) scale(2);
+}
+.bannerNav-wrapper {
+    margin: 0 auto;
+    padding: 0;
+    width: 100vw;
+    height: 30vh;
+    z-index: 2;
+    position: relative;
+}
+.regular-wrapper {
+    width: 100vw;
+    height: 100vh;
+    min-height: 500px;
+    background-color: #010101;
+    color:#faf7f7;
+    /* background-image: url("../assets/Images/3rdSpaceCycles.jpg"); */
+    /* I think, without the background-image, the div goes to a height of 0, and then we have nothing to fix in place in z-space. */
+    /* Yup, you need to set the height to something greater than 0 */
+    padding-top: 10vh;
+    z-index: 2;
+    position: relative;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 25px;
+    width: 60%;
+    text-align: center;
+}
+.parallax-content {
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+

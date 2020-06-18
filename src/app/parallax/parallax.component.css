@@ -1,0 +1,51 @@
+.parallax-wrapper {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 20vh;
+    box-sizing: border-box; /* This value includes padding in the total height of the element, btw. */
+    transform-style: preserve-3d;
+}
+.parallax-wrapper::before {
+    content: "";
+    width: 100vw;
+    height: 100vh; /* The illusion of parallax doesn't work (in this context) when the element height is < 100. */
+    top: 0;
+    left: 0;
+    background-image: url("../../assets/Images/20130922_Swear.jpeg");
+    opacity: 0.3;
+    position: absolute;
+    z-index: -1;
+    transform: translateZ(-1px) scale(2);
+}
+.bannerNav-wrapper {
+    margin: 0 auto;
+    padding: 0;
+    width: 100vw;
+    height: 30vh;
+    z-index: 2;
+    position: relative;
+}
+.regular-wrapper {
+    width: 100vw;
+    height: 100vh;
+    min-height: 500px;
+    background-color: white;
+    /* background-image: url("../assets/Images/3rdSpaceCycles.jpg"); */
+    /* I think, without the background-image, the div goes to a height of 0, and then we have nothing to fix in place in z-space. */
+    /* Yup, you need to set the height to something greater than 0 */
+    padding-top: 20vh;
+    z-index: 2;
+    position: relative;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 25px;
+    width: 60%;
+}
+.content h1:first-child {
+    float: left;
+}
+.content h1:last-child {
+    float: right;
+}
